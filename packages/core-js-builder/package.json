@@ -1,5 +1,5 @@
 {
-  "name": "core-js-builder",
+  "name": "@core-js/builder",
   "description": "core-js builder",
   "version": "3.10.0",
   "repository": {
@@ -7,10 +7,13 @@
     "url": "https://github.com/zloirock/core-js.git",
     "directory": "packages/core-js-builder"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./index.js",
   "dependencies": {
+    "@core-js/compat": "3.10.0",
     "core-js": "3.10.0",
-    "core-js-compat": "3.10.0",
     "webpack": "^5.28.0"
   },
   "engines": {
