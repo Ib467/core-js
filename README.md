@@ -125,7 +125,7 @@ npm install --save core-js-pure@3.10.0
 npm install --save core-js-bundle@3.10.0
 ```
 
-Already bundled version of `core-js` [on CDN](https://unpkg.com/core-js-bundle@3.10.0) ([minified version](https://unpkg.com/core-js-bundle@3.10.0/minified.js)).
+Already bundled versions of `core-js` on CDN: [actual](https://unpkg.com/core-js-bundle@3.10.0/actual.js), [full](https://unpkg.com/core-js-bundle@3.10.0/full.js).
 
 ### `postinstall` message[⬆](#index)
 The `core-js` project needs your help, so the package shows a message about it after installation. If it causes problems for you, you can disable it:
@@ -1947,7 +1947,7 @@ core-js/features/typed-array/find-last-index
 [1, 2, 3, 4].findLastIndex(it => it % 2); // => 2
 ````
 ##### [Array find from last](https://github.com/tc39/proposal-array-find-from-last)[⬆](#index)
-Modules [`esnext.array.find-last`](https://github.com/zloirock/core-js/blob/v3.9.1/packages/core-js/modules/esnext.array.find-last.js), [`esnext.array.find-last-index`](https://github.com/zloirock/core-js/blob/v3.9.1/packages/core-js/modules/esnext.array.find-last-index.js), [`esnext.typed-array.find-last`](https://github.com/zloirock/core-js/blob/v3.9.1/packages/core-js/modules/esnext.typed-array.find-last.js) and [`esnext.typed-array.find-last-index`](https://github.com/zloirock/core-js/blob/v3.9.1/packages/core-js/modules/esnext.typed-array.find-last-index.js).
+Modules [`esnext.array.find-last`](https://github.com/zloirock/core-js/blob/v3.10.0/packages/core-js/modules/esnext.array.find-last.js), [`esnext.array.find-last-index`](https://github.com/zloirock/core-js/blob/v3.10.0/packages/core-js/modules/esnext.array.find-last-index.js), [`esnext.typed-array.find-last`](https://github.com/zloirock/core-js/blob/v3.10.0/packages/core-js/modules/esnext.typed-array.find-last.js) and [`esnext.typed-array.find-last-index`](https://github.com/zloirock/core-js/blob/v3.10.0/packages/core-js/modules/esnext.typed-array.find-last-index.js).
 ```js
 class Array {
   findLast(callbackfn: (value: any, index: number, target: any) => boolean, thisArg?: any): any;
